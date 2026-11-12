@@ -1,10 +1,9 @@
-
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import { users } from './Users'
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import { users } from "./users";
 
 function Users() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -21,7 +20,7 @@ function Users() {
         </div>
       ))}
     </div>
-  )
+  );
 }
 
-export default Users
+export default Users;
